@@ -11,6 +11,7 @@ namespace Fourth_Application
         static void Main(string[] args)
         {
             Console.WriteLine(GetGreeting() + " " + PersonToBeGreeted() + " " + GetCurrentDateAndTime());
+            Console.WriteLine("");
             Console.Read();
         }
         public static string GetGreeting() => "Good Morning";

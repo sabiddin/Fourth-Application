@@ -10,9 +10,11 @@ namespace Fourth_Application
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetGreeting());
+            Console.WriteLine(GetGreeting() + " " + PersonToBeGreeted());
+            Console.Read();
         }
-        public static string GetGreeting() => "Hello Syed";
-                    
+        public static string GetGreeting() => "Good Morning";
+        public static string PersonToBeGreeted() => "Syed";
+
     }
 }
